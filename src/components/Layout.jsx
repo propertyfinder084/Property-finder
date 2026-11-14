@@ -18,9 +18,11 @@ const sections = [
   ['Support', [
     ['/complaints', 'Complaints', 'flag', 'complaints'],
     ['/support', 'Support Chat', 'message', 'support'],
+    ['/chats', 'All Chats', 'users'],
   ]],
   ['Business', [
     ['/payments', 'Payments', 'card', 'payments'],
+    ['/deals', 'Deals & Payouts', 'card', 'deals'],
     ['/users', 'All Users', 'users'],
     ['/visits', 'Visit Bookings', 'calendar', 'visits'],
   ]],

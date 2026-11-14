@@ -10,6 +10,8 @@ import Dealers from './pages/Dealers.jsx'
 import UserVerification from './pages/UserVerification.jsx'
 import Complaints from './pages/Complaints.jsx'
 import Support from './pages/Support.jsx'
+import Chats from './pages/Chats.jsx'
+import Deals from './pages/Deals.jsx'
 import Payments from './pages/Payments.jsx'
 import Users from './pages/Users.jsx'
 import Visits from './pages/Visits.jsx'
@@ -42,6 +44,8 @@ export default function App() {
         <Route path="/verify/properties" element={<Listings />} />
         <Route path="/complaints" element={<Complaints />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/chats" element={<Chats />} />
+        <Route path="/deals" element={<Deals />} />
         <Route path="/payments" element={<Payments />} />
         <Route path="/users" element={<Users />} />
         <Route path="/visits" element={<Visits />} />
