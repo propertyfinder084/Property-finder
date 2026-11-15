@@ -11,7 +11,6 @@ const sections = [
     ['/analytics', 'Analytics', 'chart'],
   ]],
   ['Verification', [
-    ['/verify/users', 'User Verification', 'userCheck', 'users'],
     ['/verify/brokers', 'Broker Verification', 'briefcase', 'brokers'],
     ['/verify/properties', 'Property Verification', 'home', 'properties'],
   ]],

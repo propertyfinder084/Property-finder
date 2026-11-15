@@ -235,3 +235,6 @@ a.kpi:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(15,36,51
 
 .app-footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); text-align: center; color: #8a99a6; font-size: 12.5px; }
 .login-footer { position: fixed; bottom: 14px; left: 0; right: 0; border: 0; margin: 0; padding: 0; }
+
+.lang-btn { position: fixed; top: 10px; right: 14px; z-index: 9999; border: 0; background: #e6f5ec; color: #0a8f4d; font-weight: 700; font-size: 14px; padding: 7px 14px; border-radius: 18px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+[dir='rtl'] body { text-align: right; }
